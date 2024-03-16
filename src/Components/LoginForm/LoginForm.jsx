@@ -8,10 +8,6 @@ const LoginForm = () => {
             <form action="">
                 <h1>Login</h1>
                 <div className='input-box'>
-                    <input type='text' placeholder='Username' required />
-                    <FaUser className='icon' />
-                </div>
-                <div className='input-box'>
                     <input type='text' placeholder='Your email' required />
                 </div>
                 <div className='input-box'>
@@ -25,6 +21,14 @@ const LoginForm = () => {
 
                 <button type='submit'>Login</button>
 
+                <div className='Login-button'>
+                    <button>
+                        Login with google
+                    </button>
+                    <button >
+                        Login with gmail
+                    </button>
+                </div>
                 <div className='register-link'>
                     <p>Don't have an account? <a href='#'>Register</a></p>
                 </div>
