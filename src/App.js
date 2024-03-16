@@ -1,9 +1,11 @@
-import LoginForm from './Components/LoginForm/LoginForm';
+import React from 'react'
+import Navbar from './Components/Navbar/Navbar';
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <LoginForm />
+    <div className='app'>
+      <Navbar />
+      {/* <LoginForm /> */}
     </div>
   );
 }

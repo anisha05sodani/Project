@@ -1,0 +1,19 @@
+.navbar {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar img {
+    width: 15vw;
+}
+
+.navbar input {
+    background: transparent;
+    color: rgb(167, 167, 167);
+    border-radius: 50px;
+    border: 1px solid rgb(0, 22, 59);
+    padding: 10px 40px;
+
+}

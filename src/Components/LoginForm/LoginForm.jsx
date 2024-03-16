@@ -8,11 +8,14 @@ const LoginForm = () => {
             <form action="">
                 <h1>Login</h1>
                 <div className='input-box'>
-                    <input type='text' placeholder='username' required />
+                    <input type='text' placeholder='Username' required />
                     <FaUser className='icon' />
                 </div>
                 <div className='input-box'>
-                    <input type='password' placeholder='password' required></input>
+                    <input type='text' placeholder='Your email' required />
+                </div>
+                <div className='input-box'>
+                    <input type='password' placeholder='Password' required></input>
                     <FaLock className='icon' />
                 </div>
                 <div className='remember-forgot'>
