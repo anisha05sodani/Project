@@ -5,9 +5,15 @@ import { assets } from '../../Assets/assets'
 const Navbar = () => {
     return (
         <div className='navbar'>
-            <img src={assets.logo} alt="" className="logo" />
-            <input type='text' placeholder='Search' className='search'></input>
-            <p>Posts</p>
+            <div className="logocontainer">
+                <img src={assets.logo} alt="" className="logo" />
+            </div>
+            <div className="search">
+                <input type='text' placeholder='Search' className='search-text'></input>
+                <img src={assets.search} alt='' className='search-symbol' />
+            </div>
+            <div>Posts</div>
+            <div>Discussion Forums</div>
             <div>Chats</div>
         </div>
     )

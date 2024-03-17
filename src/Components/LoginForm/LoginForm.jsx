@@ -22,12 +22,16 @@ const LoginForm = () => {
                 <button type='submit'>Login</button>
 
                 <div className='Login-button'>
-                    <button>
-                        Login with google
-                    </button>
-                    <button >
-                        Login with gmail
-                    </button>
+                    <div className="btn">
+                        <button>
+                            Login with google
+                        </button>
+                    </div>
+                    <div className="btn">
+                        <button >
+                            Login with gmail
+                        </button>
+                    </div>
                 </div>
                 <div className='register-link'>
                     <p>Don't have an account? <a href='#'>Register</a></p>
