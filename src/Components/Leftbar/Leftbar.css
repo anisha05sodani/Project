@@ -1,0 +1,38 @@
+.leftbar {
+    flex: 3;
+}
+
+.home {
+    display: flex;
+    margin-left: 15px;
+}
+
+.home a {
+    margin-left: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.home-icon {
+    width: 22px;
+    height: auto;
+}
+
+
+.add-icon {
+    width: 22px;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.community {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.community p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    margin-left: 5px;
+}

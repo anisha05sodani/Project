@@ -10,7 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   min-height: 100vh;
-  background-color: rgb(80, 240, 255);
+  background-color: rgb(239, 244, 245);
 }
 
 code {
@@ -19,6 +19,6 @@ code {
 }
 
 .app {
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
